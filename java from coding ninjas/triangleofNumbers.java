@@ -16,13 +16,13 @@ class triangleofNumbers{
              int k = i;
             while(j<=i){ // i=1,2,3,4
                 System.out.print(k);
-                k--;
+                k++;
                 j++;
             }
-            // k = i;
+            k = i;
             j = 1;
             while(j<i){ // j<i --> 2,3,4
-                // System.out.print(n-i);
+                System.out.print(i+k-j-1);
                 // k--;
                 j++;
             }
@@ -35,6 +35,6 @@ class triangleofNumbers{
 // 4
 // output-->
 //    1
-//   121
-//  12321
-// 1234321
+//   232
+//  34543
+// 4567654
